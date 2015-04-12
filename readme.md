@@ -6,6 +6,13 @@ Package contains a Di Container Validator for validating loggers.
 
 In this example we will configure and use [Monolog](https://github.com/Seldaek/monolog) and set up a simple logger that logs to a file.
 
+First, add the needed dependency to composer.json:
+```shell
+$ composer require monolog/monolog:1.*
+```
+
+After that it's just a matter of updating the configuration:
+
 ```php
 <?php
 use Monolog\Logger;
