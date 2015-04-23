@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11924a55a89bb268c0ff576651abcccb",
+    "hash": "3c85b1ac24f00e09be8fd3e96e5e9414",
     "packages": [
         {
             "name": "phapi/contract",
@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phapi/contract.git",
-                "reference": "db829816e4203c0eb173aac898ba35a8c5bd636f"
+                "reference": "93d4ec2f3f3f040b19802eddf38f0cf515852c69"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phapi/contract/zipball/db829816e4203c0eb173aac898ba35a8c5bd636f",
-                "reference": "db829816e4203c0eb173aac898ba35a8c5bd636f",
+                "url": "https://api.github.com/repos/phapi/contract/zipball/93d4ec2f3f3f040b19802eddf38f0cf515852c69",
+                "reference": "93d4ec2f3f3f040b19802eddf38f0cf515852c69",
                 "shasum": ""
             },
             "require": {
@@ -47,7 +47,7 @@
                 "interfaces",
                 "phapi"
             ],
-            "time": "2015-04-12 20:30:45"
+            "time": "2015-04-21 10:47:39"
         },
         {
             "name": "psr/log",
@@ -95,12 +95,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/codeclimate/php-test-reporter.git",
-                "reference": "527f794f52d68215ebbbd9c61f37a042f55dcc16"
+                "reference": "418ae782307841ac50fe26daa4cfe04520b0de9c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/codeclimate/php-test-reporter/zipball/527f794f52d68215ebbbd9c61f37a042f55dcc16",
-                "reference": "527f794f52d68215ebbbd9c61f37a042f55dcc16",
+                "url": "https://api.github.com/repos/codeclimate/php-test-reporter/zipball/418ae782307841ac50fe26daa4cfe04520b0de9c",
+                "reference": "418ae782307841ac50fe26daa4cfe04520b0de9c",
                 "shasum": ""
             },
             "require": {
@@ -145,7 +145,7 @@
                 "codeclimate",
                 "coverage"
             ],
-            "time": "2015-04-02 01:24:12"
+            "time": "2015-04-18 14:43:54"
         },
         {
             "name": "doctrine/instantiator",
