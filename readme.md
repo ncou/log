@@ -18,11 +18,12 @@ After that it's just a matter of updating the configuration:
 use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
-$phapi = new \Phapi\Phapi();
-
-$phapi['log'] = function ($container) {
+$container['log'] = function ($container) {
     $log = new Logger('default');
-    $log->pushHandler(new StreamHandler('../logs/logfile.log', Logger::WARNING));
+
+    // IMPORTANT! Make sure you use an absolute path. Relative paths aren't guaranteed to
+    // work in cases where errors and exceptions occur.
+    $log->pushHandler(new StreamHandler(__DIR__ . '/../logs/logfile.log', Logger::WARNING));
     return $log;
 };
 ```
@@ -31,8 +32,8 @@ Usage:
 ```php
 <?php
 // add records to the log
-$phapi['log']->warning('Foo');
-$phapi['log']->error('Bar');
+$container['log']->warning('Foo');
+$container['log']->error('Bar');
 ```
 
 ## License
