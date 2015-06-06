@@ -1,7 +1,7 @@
 # Phapi Log
 Package contains a Di Container Validator for validating loggers.
 
-## Logger configuration
+## Configuration
 **Loggers must be PSR-3 compatible.** If no logger is configured or if the configured logger doesn't comply with PSR-3 then the <code>NullLogger</code> that is supplied in the PSR-3 package will be used.
 
 In this example we will configure and use [Monolog](https://github.com/Seldaek/monolog) and set up a simple logger that logs to a file.
@@ -28,7 +28,7 @@ $container['log'] = function ($container) {
 };
 ```
 
-Usage:
+## Usage
 ```php
 <?php
 // add records to the log
