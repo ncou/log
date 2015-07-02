@@ -16,7 +16,8 @@ use Psr\Log\NullLogger;
  * @license  MIT (http://opensource.org/licenses/MIT)
  * @link     https://github.com/phapi/log
  */
-class Log implements Validator {
+class Log implements Validator
+{
 
     /**
      * Dependency Injector Container
