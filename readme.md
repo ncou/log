@@ -1,4 +1,9 @@
 # Phapi Log
+
+[![Build status](https://img.shields.io/travis/phapi/log.svg?style=flat-square)](https://travis-ci.org/phapi/log)
+[![Code Climate](https://img.shields.io/codeclimate/github/phapi/log.svg?style=flat-square)](https://codeclimate.com/github/phapi/log)
+[![Test Coverage](https://img.shields.io/codeclimate/coverage/github/phapi/log.svg?style=flat-square)](https://codeclimate.com/github/phapi/log/coverage)
+
 Package contains a Di Container Validator for validating loggers.
 
 ## Configuration
